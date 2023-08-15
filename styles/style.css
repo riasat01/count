@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+h1{ 
+    margin: 4rem 0 2rem;
+    font-size: 4rem;
+}
+
+p {
+    font-size: 8rem;
+}
+
+button{
+    margin-top: 2rem;
+    padding: 1rem 4rem;
+    font-size: 2rem;
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+}
+
+.plus-btn{
+    background-color: chartreuse;
+    margin-right: 2rem;
+}
+
+.minus-btn{
+    background-color: tomato;
+    margin-left: 2rem;
+}
