@@ -7,7 +7,7 @@ body {
     text-align: center;
 }
 
-h1{ 
+h1 {
     margin: 4rem 0 2rem;
     font-size: 4rem;
 }
@@ -16,7 +16,7 @@ p {
     font-size: 8rem;
 }
 
-button{
+button {
     margin-top: 2rem;
     padding: 1rem 4rem;
     font-size: 2rem;
@@ -25,12 +25,68 @@ button{
     border-radius: 2rem;
 }
 
-.plus-btn{
+.plus-btn {
     background-color: chartreuse;
     margin-right: 2rem;
 }
 
-.minus-btn{
+.minus-btn {
     background-color: tomato;
     margin-left: 2rem;
+}
+
+
+/* rersponsive0 */
+
+@media screen and (max-width : 320px) {
+    body {
+        padding: 0 1rem;
+    }
+
+    h1 {
+        margin: 2rem 0 1rem;
+        font-size: 2rem;
+    }
+
+    /* 
+    p {
+        font-size: 4rem;
+    } */
+
+    button {
+        margin-top: 1rem;
+        padding: 0.5rem 2rem;
+        font-size: 2rem;
+        border-radius: 2rem;
+    }
+}
+
+@media screen and (max-width : 426px) {
+    body {
+        padding: 0 1.5rem;
+    }
+
+    h1 {
+        margin: 2rem 0 1rem;
+        font-size: 2rem;
+    }
+
+    /* p {
+        font-size: 4rem;
+    } */
+
+    button {
+        margin-top: 1rem;
+        padding: 1rem 4rem;
+        font-size: 2rem;
+        border-radius: 2rem;
+    }
+
+    .plus-btn {
+        margin-right: 0;
+    }
+
+    .minus-btn {
+        margin-left: 0;
+    }
 }
